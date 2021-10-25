@@ -1,0 +1,45 @@
+Reinforcement
+1. Clone float[][]
+... newArray = Arrays.copyOf(array, newLength);
+2. Create a method to count non-null item and assign to variable numEntries
+3. Please... I don't care
+4. Describe a way to use recursion to add all the elements in a n x n array of int
+
+Fill2DArray(array[][], index)
+    Fill1DArray(array[][index], 0);
+    Fill2DArray(array[][], ++index);
+
+Fill1DArray(array[], index)
+    FillItem(array[index], item);
+    Fill1DArray(array[], ++index);
+5. created
+6. Potentially is ASCII table number or char number for conversion instead of generating a static table.
+7. NullPointerException. A null check should be done to handle this or throw a different exception.
+8. no
+9.
+    insertBeginning(insertingNode)
+        insertingNode.next = head.node
+        head.node = insertingNode
+
+10.
+    getPenultimateNode()
+        currentNode = head
+        nextNode = head.next
+        while(true)
+            if (currentNode == null
+                || nextNode == null)
+                return null; // no such node
+
+            if (nextNode.next != null)
+                currentNode = nextNode
+                nextNode = currentNode.next
+            else
+                return currentNode;
+
+11. n/2
+12. If not sorted, save the current highest and iterate through each element. If current element > current highest, set the current element as the current highest.
+Time is O(n) and space is O(n) since this is a recursive function. If this is a loop, then space usage is O(1)
+13. No
+14. No
+15. No
+16. Iterate through the circular list until the entry node is repeated.

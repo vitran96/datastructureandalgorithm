@@ -1,0 +1,37 @@
+1. Can 2 interfaces mutually extend each other? why or why not?
+No they cannot extend each other mutually because it will cause circular dependency problem (cyclic inheritance)
+
+2. 3 examples of life-critical software application.
+- Nuclear launching system
+- Car/Bike energy/gas ECU controlling system
+- Almost any medical precision equipment, similar to the Therac-25 in the book.
+
+3. Give an example of a software app where adaptability can mean the difference between prolonged sales lifetime and bankruptcy
+Adobe Photoshop
+It is a cross-platform photo editing application.
+Its been around since 1990 till now (2021 as of writing this answer sheet)
+
+4. Describe a component from a text-editor GUI and the method that it encapsulates
+// What the hell is this question??
+"View" menu to show more tool like "rule" or "show whitespace", "show ending character", etc...
+
+5. Draw a class inheritance .... -> hell no :v
+
+6. Snippet:
+new FibonacciProgression(2, 2).printProgression(8)
+
+7. Answer: 2^56 + 1 cycles
+
+8. Nothing change, "firstValue" from GeomProgression will still be invoked
+
+9. No. Racer is not superclass of Equestrian but rather another branch.
+
+10. No :v
+
+11.
+Read it.
+Ship it.
+Buy it.
+Read it.
+Box it.
+Read it.

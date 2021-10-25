@@ -1,0 +1,2 @@
+1. Suppose we create array A of GameEntry objects, weich has an integer scores field, and we clone A and store the result in an array B. If we set A[4].score to 50, what is the score value of GameEntry object ref by B[4]
+-> 550
